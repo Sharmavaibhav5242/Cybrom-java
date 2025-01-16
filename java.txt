@@ -1,0 +1,16 @@
+public class Data
+{
+public static void main (String arg[])
+{
+  int a=10;
+  char ch='a';
+  String name="Vaibhav";
+  float f=1.2f;
+  Double d=122.565116;
+  short s=1;
+  byte b=1;
+  long l=1246279457;
+  boolean vr=true;
+  System.out.println(a+" "+ch+" "+name+" "+f+" "+d+" "+s+" "+b+" "+l+" "+vr);
+}
+}
