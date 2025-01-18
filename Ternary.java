@@ -4,15 +4,15 @@ public class Ternary
 public static void main(String []args)
 {
 Scanner obj=new Scanner(System.in);
-int a;
-int b;
-int c;
-System.out.println("Enter 3 numbers");
-a=obj.nextInt();
-b=obj.nextInt();
-c=obj.nextInt();
+int fn;
+int sn;
+int tn;
+System.out.println("Enter numbers");
+fn=obj.nextInt();
+sn=obj.nextInt();
+tn=obj.nextInt();
 String result;
-result=(a>b)?(a>c)?a:"no";
-System.out.println(result);
+result=(fn>=sn && fn>=tn)?String.valueOf(fn):(sn>=tn && sn>=fn)?String.valueOf(sn):String.valueOf(tn);
+System.out.println("Greatest number among these ="+" "+result);
 }
 }
