@@ -7,7 +7,7 @@ String word2="Asus";
 String word3="apple";
 
 if(word1.compareTo(word2)>0)
-{
+{ 
 String temp=word1;
 word1=word2;
 word2=temp;
