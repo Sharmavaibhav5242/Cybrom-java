@@ -15,6 +15,9 @@ public class Ifelse {
                 if (path==3){
                     System.out.println("Enter next path");
                     path= obj.nextInt();
+                    if(path == 4){
+                        System.out.println("Destination reached");
+                    }
                 } else if (path==4) {
                     System.out.println("Destination reached");
                 }
