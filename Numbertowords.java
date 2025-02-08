@@ -5,17 +5,18 @@ public class Numbertowords {
         int num;
         int reminder;
         int reverse=0;
+        int count=0;
         System.out.println("Enter number");
         num= obj.nextInt();
         for (int i=1;num>0;++i) {
             reminder = num % 10;
             reverse = (reverse * 10) + reminder;
+            count++;
             num = num / 10;
         }
-        while(reverse!=0) {
+        while(count!=0) {
             reminder = reverse % 10;
             reverse = reverse / 10;
-
             switch (reminder) {
                 case 1:
                     System.out.println("one");
@@ -48,6 +49,7 @@ public class Numbertowords {
                     System.out.println("Zero");
                     break;
             }
+            count--;
         }
 
 
