@@ -103,5 +103,38 @@ public class Rat {
             }
             System.out.println();
         }
+        for(int r=1;r<=5;++r)
+        {
+            for (int c=1;c<=5;++c)
+            {
+                if (c<=r)
+                {
+                    System.out.print(1);
+                }
+                else
+                {
+                    System.out.print(" ");
+                }
+            }
+            System.out.println();
+        }
+
+        char ch='a'-1;
+        for (int r=1;r<=5;++r)
+        {
+            for (int c=1;c<=5;++c)
+            {
+                if (c<=r)
+                {
+                    ch++;
+                    System.out.print(ch);
+                }
+                else
+                {
+                    System.out.print(" ");
+                }
+            }
+            System.out.println();
+        }
     }
 }
