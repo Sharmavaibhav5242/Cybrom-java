@@ -44,7 +44,8 @@ public class Maximum {
             {
                 if (drr[i]==drr[j])
                 {
-                    
+                    System.out.println(drr[i]);
+                   
                 }
             }
         }
