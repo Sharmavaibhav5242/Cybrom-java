@@ -33,6 +33,34 @@ public class Duplicate {
 //                    }
 //                }
 
+//                int arr[]=new int[]{1,2,1,2,3,3,111,2};
+//                int min=0;
+//
+//                for(int i=0; i<arr.length-1; ++i){
+//
+//                    if(arr[i]<min){
+//                        min=arr[i];
+//                    }
+//                }
+//                for(int i=0; i<arr.length-1; ++i){
+//                    boolean dup=false;
+//
+//
+//                    for(int j=i+1; j<arr.length; j++)
+//                    {
+//
+//
+//                        if(arr[i]==arr[j]){
+//                            arr[j]=min-1;
+//                            dup=true;        }
+//
+//                    }
+//
+//                    if(!dup && arr[i]!=min-1 ){
+//                        System.out.println(arr[i]);
+//                    }}
+
+
                 int arr[]=new int[]{1,2,1,2,3,3,111,2};
                 int min=0;
 
@@ -56,11 +84,13 @@ public class Duplicate {
 
                     }
 
-                    if(!dup && arr[i]!=min-1 ){
+                    if(dup && arr[i]!=min-1 ){
                         System.out.println(arr[i]);
                     }}
 
             }
         }
+
+
 
 
