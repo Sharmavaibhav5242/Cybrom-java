@@ -36,7 +36,7 @@
 //
 //    }
 //}
-Q. print ascending number:
+//Q. print ascending number:
 
 import java.util.Scanner;
 public class Arr{
