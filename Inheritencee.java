@@ -1,13 +1,18 @@
-class two
+class Twooo
 {
     void show()
     {
         System.out.println("Hello");
     }
 }
-public class inheritencee extends two {
+
+class three extends Twooo
+{
+
+}
+public class Inheritencee extends Twooo {
     public static void main(String[] args) {
-        inheritencee obj=new inheritencee();
+        Inheritencee obj=new Inheritencee();
         obj.show();
     }
 }
